@@ -1,6 +1,5 @@
-const { default: Theme } = require('@styles/Theme');
-const { responsiveWidth } = require('@utils/Size');
-const { StyleSheet } = require('react-native');
+const {default: Theme} = require('@styles/Theme');
+const {StyleSheet} = require('react-native');
 
 const Styles = themeMode =>
   StyleSheet.create({
@@ -24,7 +23,7 @@ const Styles = themeMode =>
       borderWidth: 1,
       borderRadius: 5,
       padding: 10,
-      borderStyle: "solid",
+      borderStyle: 'solid',
       width: '100%',
     },
     title: {

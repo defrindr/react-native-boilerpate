@@ -10,14 +10,15 @@ const Routes = () => {
   return (
     <Router>
       <Stack key="root">
+        {/* Init */}
         <Scene
           key="app.init.splashscreen"
           component={InitSplashScreen}
           headerShown={false}
         />
 
+        {/* Auth */}
         <Scene key="app.auth.login" component={AuthLogin} headerShown={false} />
-
         <Scene
           key="app.auth.register"
           component={AuthRegister}
@@ -25,6 +26,7 @@ const Routes = () => {
           initial
         />
 
+        {/* Home */}
         <Scene
           key="app.home.dashboard"
           component={HomeDashboard}

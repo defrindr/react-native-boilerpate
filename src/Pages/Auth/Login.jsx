@@ -175,6 +175,7 @@ class AuthLogin extends React.Component {
                         primary
                         radius="xs"
                         bold
+                        p="s"
                         icon="arrow-right"
                         onPress={this._handleLogin}
                     />

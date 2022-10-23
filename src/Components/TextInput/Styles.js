@@ -1,6 +1,6 @@
 import Theme from '@styles/Theme';
-import { responsiveWidth } from '@utils/Size';
-import { StyleSheet } from 'react-native';
+import {responsiveWidth} from '@utils/Size';
+import {StyleSheet} from 'react-native';
 
 const Styles = themeMode =>
   StyleSheet.create({

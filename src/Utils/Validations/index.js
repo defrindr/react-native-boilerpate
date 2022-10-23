@@ -12,7 +12,7 @@ const VALIDATION = {
   Min,
   Max,
   Phone,
-  Match
+  Match,
 };
 
 export default VALIDATION;

@@ -1,5 +1,5 @@
 import Theme from '@styles/Theme';
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 const styles = themeMode =>
   StyleSheet.create({
@@ -10,7 +10,7 @@ const styles = themeMode =>
       padding: Theme(themeMode).SIZE[p],
       margin: Theme(themeMode).SIZE[m],
       borderRadius: Theme(themeMode).RADIUS[radius],
-      width: w
+      width: w,
     }),
     shadow: {
       shadowColor: Theme(themeMode).COLOR.background,

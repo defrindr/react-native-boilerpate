@@ -1,6 +1,4 @@
-import { responsiveHeight } from '@utils/Size';
-
-const { StyleSheet } = require('react-native');
+const {StyleSheet} = require('react-native');
 
 const Styles = themeMode =>
   StyleSheet.create({

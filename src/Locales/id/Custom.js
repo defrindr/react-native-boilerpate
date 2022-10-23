@@ -1,4 +1,4 @@
-import { name as displayName } from '@root/app';
+import {name as displayName} from '@root/app';
 
 export default {
   displayName,
