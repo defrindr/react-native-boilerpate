@@ -32,12 +32,12 @@ const Styles = themeMode =>
       marginTop: Theme(themeMode).SIZE.l,
     },
     title: {
-      color: Theme(themeMode).COLOR.foreground,
+      color: Theme(themeMode).COLOR.primary,
       fontSize: Theme(themeMode).SIZE.m,
       fontWeight: 'bold',
     },
     subtitle: {
-      color: Theme(themeMode).COLOR.foreground,
+      color: Theme(themeMode).COLOR.primary,
       fontSize: Theme(themeMode).SIZE.s,
       fontWeight: 'bold',
     },
