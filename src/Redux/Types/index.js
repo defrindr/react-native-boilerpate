@@ -1,0 +1,31 @@
+// redux types
+
+/**
+ * * AUTH TYPES
+ */
+const AUTH_LOGIN = 'AUTH_LOGIN';
+const AUTH_REGISTER = 'AUTH_REGISTER';
+const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+/**
+ * * THEME TYPES
+ */
+const THEME_CHANGE = 'THEME_CHANGE';
+
+/**
+ * * UI TYPES
+ */
+
+const UI_SET_LOADING = 'UI_SET_LOADING';
+
+export default {
+  AUTH: {
+    LOGIN: AUTH_LOGIN,
+    REGISTER: AUTH_REGISTER,
+    LOGOUT: AUTH_LOGOUT,
+  },
+  UI: {
+    CHANGE_THEME: THEME_CHANGE,
+    SET_LOADING: UI_SET_LOADING,
+  },
+};

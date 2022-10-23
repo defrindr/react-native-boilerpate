@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["./"],
+      "@config/*": ["./src/Config/*"],
+      "@redux/*": ["./src/Redux/*"],
+      "@components/*": ["./src/Components/*"],
+      "@assets/*": ["./src/Assets/*"],
+      "@locales/*": ["./src/Locales/*"],
+      "@styles/*": ["./src/Styles/*"],
+      "@routes/*": ["./src/Routes/*"],
+      "@validations/*": ["./src/Utils/Validations/*"],
+      "@utils/*": ["./src/Utils/*"],
+      "@pages/*": ["./src/Pages/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
